@@ -13,8 +13,8 @@ header{
 
 #btn{
 
-    position: relative;
-    top: 3vh;
+    position: absolute;
+    top: 36vh;
     width: 10vw;
     height: 8vh;
     border-radius: 8%;
