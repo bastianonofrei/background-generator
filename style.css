@@ -9,6 +9,14 @@ header{
     width: 100vw;
     height: 8vh;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 #btn{
