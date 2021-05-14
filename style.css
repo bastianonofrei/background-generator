@@ -1,23 +1,41 @@
-.container {
-    margin: 0 auto;
-    background:linear-gradient(45deg, blue,red);
-    width: 80vw;
-    height: 95vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+body{
+    background-color: pink;
+    transition: all 3s;
+    margin: 0;
 }
 
-input[type=color]{
-border-radius: 5%;
-width: 100px;
-height: 100px;
-box-sizing: border-box;
+header{
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
 }
 
-label{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+#btn{
+
+    position: relative;
+    top: 3vh;
+    width: 10vw;
+    height: 8vh;
+    border-radius: 8%;
+    background-color: black;
+    color: white;
+    font-family: monospace;
     font-size: 20px;
-    padding: 1em;
+}
+
+div{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+#colorValue{
+    position: relative;
+    top: 4vh;
+    font-family: monospace;
+    font-size: 50px;
 }
