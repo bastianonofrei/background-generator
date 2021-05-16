@@ -15,7 +15,7 @@ function changeColor() {
     num2 = num2.toFixed(0);
     let num3 = Math.random() * 255;
     num3 = num3.toFixed(0);
-    console.log("button clicked");
+    console.log("You clicked the button Yaay");
     paragraph.style.fontSize = `${fontSize}px`;
     paragraph.style.fontFamily = `${fontfamilies[randomFont]}`;
     paragraph.textContent = `RGB(${num1},${num2},${num3})`;
