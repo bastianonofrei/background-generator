@@ -1,4 +1,6 @@
 # background-generator
 
 
-In centeredTitle branch we create the centered white heading.
+to see the background generator click the following link
+
+https://bastianonofrei.github.io/background-generator/
